@@ -1,0 +1,27 @@
+img.icon {
+  height: 1.2em;
+}
+.links {
+  display: flex;
+  /* background-color: lightcoral; */
+  justify-content: end;
+  padding-right: 2em;
+  margin: 15px 0;
+}
+.links * {
+  align-self: flex-end;
+  /* background-color: lightskyblue; */
+  align-self: center;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+.profile {
+  margin-right: 0;
+  height: 3em;
+}
+img.profile {
+  border-radius: 50%;
+}

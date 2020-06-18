@@ -1,0 +1,39 @@
+body {
+  font-size: 13px;
+  font-family: "Liberation Sans";
+  margin: 0;
+}
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+main > img {
+  height: 92px;
+  margin-top: 10em;
+  margin-bottom: 1em;
+}
+input#searchBox {
+  width: 582px;
+  height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 20px;  
+  margin: 20px;
+}
+.buttons input {
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
